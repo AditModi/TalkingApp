@@ -1,4 +1,4 @@
-# SpeakingApp
+# TalkingApp
 
 SpeakingApp is an AWS-Polly Application which takes text and "selected" voice as input and generates mp3 as output . the mp3 is stored in s3 bucket . you can also hear the selected voice on typing the text and submitting the speak now button .
 
