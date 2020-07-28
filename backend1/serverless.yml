@@ -1,0 +1,17 @@
+service: talking-backend 
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  profile:
+  region: us-east-1 
+  role: arn:aws:iam::<accountid>:role/my-aws-polly-mp3
+      
+functions:
+  speak:
+    handler: handler.speak
+    events:
+      - http: 
+          path: speak
+          method: post
+          cors: true
