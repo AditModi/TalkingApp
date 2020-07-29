@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class APIService {
 
-  ENDPOINT = '<endpoint>';
+  ENDPOINT = '<Endpoint>';
 
   constructor(private http:HttpClient) {}
 
