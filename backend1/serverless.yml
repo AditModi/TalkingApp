@@ -3,7 +3,7 @@ service: talking-backend
 provider:
   name: aws
   runtime: nodejs12.x
-  profile:default
+  profile: 
   region: us-east-1 
   role: arn:aws:iam::<accountid>:role/my-aws-polly-mp3
       
