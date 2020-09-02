@@ -3,6 +3,7 @@ let polly = new AWS.Polly();
 let s3 = new AWS.S3();
 const uuidv1 = require('uuid/v1');
 
+
 module.exports.speak = (event, context, callback) => {
   let data = JSON.parse(event.body);
   const pollyParams = {
